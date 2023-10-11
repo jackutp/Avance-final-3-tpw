@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquinarias2</title>
+    <body style="background-color: rgb(203, 181, 223);"></body>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #000000;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #8fd819;
+        }
+
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: rgb(203, 181, 223);
+            border-radius: 10px;
+            padding: 90px;
+        
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #ab4493;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cuadro{
+            background-image: url('https://media.istockphoto.com/id/1343399874/es/v%C3%ADdeo/l%C3%ADneas-de-ne%C3%B3n-azul-y-p%C3%BArpura-en-humo-sobre-el-fondo-negro.jpg?s=640x640&k=20&c=5ekQuJ66KoKVARDhi8fLQ3GSYDP-xQsZcJiQGlFIrxI=');
+            background-size: cover;
+            display: flex;
+            width: auto;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Compactadores Disponibles</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Precio de Venta</th>
+                <th>Precio de Alquiler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://s7d2.scene7.com/is/image/Caterpillar/CM20201215-90df8-498ab?$cc-s$" alt="Maquinaria 1"></td>
+                <td>Compactadores de Relleno Sanitarios</td>
+                <td>$50,000</td>
+                <td>$1,500/mes</td>
+            </tr>
+            <tr>
+                <td><img src="https://s7d2.scene7.com/is/image/Caterpillar/C756618?$cc-s$" alt="Maquinaria 2"></td>
+                <td>Rodillos Neum&aacute;ticos</td>
+                <td>$40,000</td>
+                <td>$1,200/mes</td>
+            </tr>
+            <tr>
+                <td><img src="https://s7d2.scene7.com/is/image/Caterpillar/CM20211119-e9fd2-c286c?$cc-s$" alt="Maquinaria 3"></td>
+                <td>Compactadores de Suelos</td>
+                <td>$35,000</td>
+                <td>$1,000/mes</td>
+            </tr>
+            <tr>
+                <td><img src="https://s7d2.scene7.com/is/image/Caterpillar/CM20220215-8b268-351eb?$cc-s$" alt="Maquinaria 4"></td>
+                <td>Rodillos Vibratorios en T&aacute;ndem</td>
+                <td>$35,000</td>
+                <td>$1,000/mes</td>
+            </tr>
+            <tr>
+                <td><img src="https://s7d2.scene7.com/is/image/Caterpillar/CM20221014-4c865-7e441?$cc-s$" alt="Maquinaria 5"></td>
+                <td>Compactadores de Suelos Vibratorios</td>
+                <td>$35,000</td>
+                <td>$1,000/mes</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+<body>
+    <table>
+        <tr>
+            <td style="width: 50%;">
+                <div class="container cuadro">
+                    <div class="column">
+                        <a href="compraCompactadores.html" target="p2">
+                            <button>Ir a compras</button>
+                        </a>
+                    </div>
+                </div>
+            </td>
+            <td style="width: 50%;">
+                <div class="container cuadro">
+                    <div class="column">
+                        <a href="alquilerCompactadores.html" target="p2">
+                            <button>Ir a alquiler</button>
+                        </a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
